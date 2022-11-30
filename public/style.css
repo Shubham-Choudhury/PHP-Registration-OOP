@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Sans - Serif;
+}
+
+a {
+  color: #78b941;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 200 px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  padding: 10 px;
+  color: #333;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  padding: 10 px 25 px 8 px;
+  color: #fff;
+  background-color: #78b941;
+  text-shadow: rgba(0, 0, 0, 0.24) 0 1px 0;
+  font-size: 16px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0 2px 0 0 inset, #fff 0 1 px 0 0;
+  border: 1px solid #6faf38;
+  border-radius: 2px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #80c248;
+}
